@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIC Kimana Church</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(26,77,46,0.85), rgba(26,77,46,0.85)),
+                  url('https://images.unsplash.com/photo-1529070538774-1843cb3265df');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+==
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background: #276749;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0.7rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0.5rem 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #1a4d2e;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .cta {
+      background: #e2f0e9;
+      border-radius: 10px;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    footer {
+      background: #1a4d2e;
+      color: white;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+
+    footer .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    footer a {
+      color: #d4f5e9;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    footer p {
+      margin: 0.3rem 0;
+    }
+
+    .copyright {
+      text-align: center;
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #dcdcdc;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>AIC Kimana Church</h1>
+  <p>Rooted in Christ • Growing Together • Serving the Community</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#ministries">Ministries</a>
+  <a href="#leadership">Leadership</a>
+  <a href="#events">Events</a>
+  <a href="#giving">Giving</a>
+  <a href="#location">Location</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="cta">
+  <h2>Welcome to Our Church</h2>
+  <p>
+    AIC Kimana Church is a Christ-centered community committed to worship,
+    discipleship, and transforming lives through the Word of God.
+  </p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    AIC Kimana Church is part of the Africa Inland Church (AIC) family.
+    We exist to glorify God, nurture believers, and impact our community
+    through love, service, and the Gospel of Jesus Christ.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Service Times</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h4>Sunday School</h4>
+      <p>8:00 AM – 9:30 AM</p>
+    </div>
+    <div class="card">
+      <h4>Main Service</h4>
+      <p>10:00 AM – 12:30 PM</p>
+    </div>
+    <div class="card">
+      <h4>Youth Fellowship</h4>
+      <p>Sunday, 2:00 PM – 4:00 PM</p>
+    </div>
+    <div class="card">
+      <h4>Midweek Prayer</h4>
+      <p>Wednesday, 3:00 PM – 5:30 PM</p>
+    </div>
+  </div>
+</section>
+
+<section id="ministries">
+  <h2>Our Ministries</h2>
+  <div class="card-grid">
+    <div class="card">Children Ministry</div>
+    <div class="card">Youth Ministry</div>
+    <div class="card">Women Fellowship</div>
+    <div class="card">Men Fellowship</div>
+    <div class="card">Praise & Worship Team</div>
+    <div class="card">Outreach & Evangelism</div>
+  </div>
+</section>
+
+<section id="leadership">
+  <h2>Church Leadership</h2>
+  <div class="card">
+    <p><strong>Rev. Hezron Parteli</strong></p>
+    <p>Senior Pastor – AIC Kimana Church</p>
+  </div>
+</section>
+
+<section id="events">
+  <h2>Upcoming Events</h2>
+  <ul>
+    <li>Youth Conference – Coming Soon</li>
+    <li>Community Outreach Program</li>
+    <li>Prayer & Fasting Week</li>
+  </ul>
+</section>
+
+<section id="giving">
+  <h2>Giving & Support</h2>
+  <p>
+    Support the ministry of AIC Kimana Church through offerings, tithes,
+    and donations. Your giving helps spread the Gospel and support community work.
+    PAYBILL :247247<br>
+    ACCOUNT NO :355752<br>
+  </p>
+</section>
+
+<section id="location">
+  <h2>Our Location</h2>
+  <p>Near AIC True Light Academy, Kimana, Kenya</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Rev. Hezron Parteli</strong></p>
+  <p>Phone: <a href="tel:+254716792803">0716 792 803</a></p>
+  <p>Email: info@aickimana.com</p>
+  <p>
+    YouTube: <a href="https://www.youtube.com/@AICKimana" target="_blank">@AICKimana</a><br>
+    TikTok: <a href="https://www.tiktok.com/@AICKimana" target="_blank">@AICKimana</a>
+  </p>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <h4>AIC Kimana Church</h4>
+      <p>Faith • Hope • Love</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <p><a href="#services">Services</a></p>
+      <p><a href="#ministries">Ministries</a></p>
+      <p><a href="#giving">Giving</a></p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>Phone: 0716 792 803</p>
+      <p>Email: info@aickimana.com</p>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>&copy; 2025 AIC Kimana Church. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
